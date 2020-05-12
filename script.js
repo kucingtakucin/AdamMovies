@@ -23,7 +23,7 @@ function ajax(url, success, error){
 
 $('.search-button').click(function () {
     $.ajax({
-        url: `http://www.omdbapi.com/?apikey=ae201a99&s=${$('.input-movie').val()}`,
+        url: `https://www.omdbapi.com/?apikey=ae201a99&s=${$('.input-movie').val()}`,
         success: function (result) {
             const data = result.Search.map(element => {
                 return `
@@ -42,7 +42,7 @@ $('.search-button').click(function () {
             $('.daftar-film').html(data);
             $('.detailsModal').click(function () {
                 $('#moviesModal').modal('show');
-                ajax(`http://www.omdbapi.com/?apikey=ae201a99&i=${$(this).data('imdbid')}`,
+                ajax(`https://www.omdbapi.com/?apikey=ae201a99&i=${$(this).data('imdbid')}`,
                     function (result) {
                         const element = JSON.parse(result.response);
                         const data = `
