@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AdamMovies/static/css/main.ce9a18af.chunk.css",
+    "main.js": "/AdamMovies/static/js/main.b159f246.chunk.js",
+    "main.js.map": "/AdamMovies/static/js/main.b159f246.chunk.js.map",
+    "runtime-main.js": "/AdamMovies/static/js/runtime-main.1aa84c17.js",
+    "runtime-main.js.map": "/AdamMovies/static/js/runtime-main.1aa84c17.js.map",
+    "static/css/2.de424728.chunk.css": "/AdamMovies/static/css/2.de424728.chunk.css",
+    "static/js/2.3d37fe97.chunk.js": "/AdamMovies/static/js/2.3d37fe97.chunk.js",
+    "static/js/2.3d37fe97.chunk.js.map": "/AdamMovies/static/js/2.3d37fe97.chunk.js.map",
+    "index.html": "/AdamMovies/index.html",
+    "precache-manifest.d5e8f551f4fc06f40cf47f0745950ac6.js": "/AdamMovies/precache-manifest.d5e8f551f4fc06f40cf47f0745950ac6.js",
+    "service-worker.js": "/AdamMovies/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/AdamMovies/static/css/2.de424728.chunk.css.map",
+    "static/css/main.ce9a18af.chunk.css.map": "/AdamMovies/static/css/main.ce9a18af.chunk.css.map",
+    "static/js/2.3d37fe97.chunk.js.LICENSE.txt": "/AdamMovies/static/js/2.3d37fe97.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/AdamMovies/static/media/IndieFlower-webfont.74295694.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1aa84c17.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.3d37fe97.chunk.js",
+    "static/css/main.ce9a18af.chunk.css",
+    "static/js/main.b159f246.chunk.js"
+  ]
+}
