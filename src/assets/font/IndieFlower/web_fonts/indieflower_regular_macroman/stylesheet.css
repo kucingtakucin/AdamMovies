@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2020. Adam Arthur Faizal.
+ */
+
+@font-face {
+    font-family: 'indie_flowerregular';
+    src: url('IndieFlower-webfont.eot');
+    src: url('IndieFlower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('IndieFlower-webfont.woff2') format('woff2'),
+         url('IndieFlower-webfont.woff') format('woff'),
+         url('IndieFlower-webfont.ttf') format('truetype'),
+         url('IndieFlower-webfont.svg#indie_flowerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
