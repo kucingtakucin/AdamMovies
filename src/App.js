@@ -25,17 +25,26 @@ class MyApp extends Component {
     async handleSearch(){
         await fetch(`https://www.omdbapi.com/?apikey=ae201a99&s=${
             document.getElementById('input-movie').value}`)
-            .then(response => response.json())
-            .then(results => {
-                this.setState({
-                    data1: results.Search,
-                });
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(response.statusText);
+                }
+                return response.json();
             })
+            .then(results => {
+                if (results.Response === 'False') {
+                    throw new Error(results.Error);
+                } else {
+                    this.setState({
+                        data1: results.Search,
+                    });
+                }})
             .catch(errors => {
                 this.setState({
                     error: errors
                 });
                 console.error(this.state.error);
+                alert(this.state.error);
             });
     }
 
@@ -105,7 +114,7 @@ class MyApp extends Component {
             <React.Fragment>
                 <header>
                     <div className="container">
-                        <h1 className="mt-5 mb-5 font-weight-bold display-4">AdamMovies.com</h1>
+                        <h1 className="mt-5 mb-5 font-weight-bold display-4 adam-movies">AdamMovies.com</h1>
                         <div className="input-group mb-3">
                             <input type="text" className="form-control input-movie" id="input-movie"
                                    placeholder="Search movie" aria-label="Search movie"

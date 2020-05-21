@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "627f7647a51d8d0570fb97dbc4c62de9",
+    "revision": "29c6e66abc5ba406d35c351411a7a786",
     "url": "/AdamMovies/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AdamMovies/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "019bd50be0dc081113a6",
+    "revision": "761ea9be8e3a435fafd1",
     "url": "/AdamMovies/static/css/main.ce9a18af.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AdamMovies/static/js/2.3d37fe97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "019bd50be0dc081113a6",
-    "url": "/AdamMovies/static/js/main.b159f246.chunk.js"
+    "revision": "761ea9be8e3a435fafd1",
+    "url": "/AdamMovies/static/js/main.024e5f3b.chunk.js"
   },
   {
     "revision": "82b5f9a1ca00213602d9",
